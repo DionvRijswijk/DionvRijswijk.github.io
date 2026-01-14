@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(205, 244, 243);
+
+}
+
+.container-space-around {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container-flex-end {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.primary-font{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.secondary-font{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.white {
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.black {
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+
+.gray-background {
+    display: flex;
+    background-color: rgb(159, 159, 159);
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.blue-background {
+    display: flex;
+    background-color: rgb(142, 203, 211);
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-large {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.text-small {
+    display: flex;
+
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
