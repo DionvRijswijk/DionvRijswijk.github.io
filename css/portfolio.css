@@ -3,6 +3,8 @@ body{
 
 }
 
+
+
 .container-space-around {
     display: flex;
     justify-content: space-around;
@@ -61,4 +63,17 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
     font-size: small;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: xx-small;
+    image-resolution: inherit;
+  }
+}
+
+img {
+max-width: 100%;
+height: auto;
+
 }
