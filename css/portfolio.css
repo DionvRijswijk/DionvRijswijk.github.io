@@ -17,6 +17,12 @@ body{
 
 }
 
+.container-flex-start {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
 .primary-font{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -69,11 +75,17 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   body {
     font-size: xx-small;
     image-resolution: inherit;
+    
   }
 }
 
 img {
 max-width: 100%;
 height: auto;
+object-fit:contain
 
 }
+
+
+
+
